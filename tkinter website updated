@@ -310,6 +310,7 @@ class GUI():
 
         if self.cmb.get()=='2-Όλα τα παρακάτω':
             self.recreate_widget()
+            self.leftmiddle.pack_forget()
             self.leftmiddle = Frame(self.left,bg='#461227',relief =RAISED)
             self.leftmiddle.pack(fill='both',expand=1,side='top')
 
